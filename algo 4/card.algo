@@ -1,0 +1,14 @@
+ALGORITHM 
+VAR
+    CARDS : ARRAY_OF INTEGER[];
+    card:INTEGER
+BEGIN
+    CARDS.push(card)
+    FOR i FROM 0 TO CARDS.length-1 STEP 1  DO
+    FOR j FROM  0 TO CARDS.length-1 STEP 1  DO
+    if (CARDS[j]>CARDS[j+1]) then
+    swap(CARDS[j],cards[j+1])
+    END_IF
+    END_FOR
+    END_FOR
+END
